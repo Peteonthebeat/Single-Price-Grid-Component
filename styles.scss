@@ -23,6 +23,7 @@ body {
 /* Container and Stuff */
 .container {
   width: 100%;
+  height: 80vh;
   display: grid;
   grid-template-areas:
     "area-one"
@@ -98,7 +99,7 @@ span {
   color: white;
 }
 
-strike {
+s {
   font-weight: 100;
   color: hsl(204, 43%, 93%);
   line-height: 1.5rem;
